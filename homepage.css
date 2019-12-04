@@ -59,3 +59,35 @@
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
+
+.logo {
+  font-family:Titania Shadow;
+  text-align:right;
+  color:white;
+}
+.p {
+  color:white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity:99;
+}
+.fa-instagram {
+  color: white;
+}
+.banner {
+      width:100%;
+      display:block;
+  }
+.banner > .banner-image {
+    width: 100%;
+    display: block;
+    height: 330px;
+}
