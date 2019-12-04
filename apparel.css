@@ -1,0 +1,58 @@
+.hero{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background-image: url(ibiza13.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*This is the second hero picture*/
+.hero2{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background-image: url(ibiza12.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*footer*/
+/*FOOTER START///////////////////*/
+
+footer{
+    padding: 50px 0 20px 0;
+    background-color: black;
+    color:white;
+}
+
+hr{
+    border-style: none;
+    border-top-style:solid;
+    border-color: white;
+    border-width: 5px;
+    width: 50%;
+}
+
+a{
+    color: white;
+    text-decoration: none ;
+    font-size: 100%;
+}
+
