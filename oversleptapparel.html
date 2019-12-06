@@ -226,18 +226,34 @@
 
 
 <footer>
-    <div>
-        <center>
-        <h4 ><a href="homepage.html">Home</a></h4>    
-        <h4 ><a href="art.html">Art</a></h4>
-        <h4 ><a href="oversleptapparel.html">Apparel</a></h4>  
-        </center>
-    <br>
-    </div>
+  <center>
+  <h4><button class="open-button" onclick="openForm()">Contact</button></h4>
+	<div class="form-popup" id="myForm">
+  		<form action="MAILTO:christinakasper@my.uri.edu"
+   			class="form-container"
+   			method="POST"
+   			enctype="text/plain"
+   			name="EmailForm">
+    		<label for="name"><b>Name</b></label>
+    		<input type="text" placeholder="Your Name" name="name" required>
+
+    		<label for="email"><b>Email</b></label>
+    		<input type="email" placeholder="Your Email" name="email" required>
+
+    		<label for="text"><b>Message</b></label>
+    		<input type="text" rows="8" cols="28">
+
+    		<input class="send" id="btn send" type="submit" value="Send">
+
+    		<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  		</form>
+  </div>
+</center>
+  <br>
     <hr>
     <div>
-        <center>
-        <img src="oversleptagain.PNG" alt="overslept logo">
+    <center>
+        <img class="footerimg" src="oversleptagain.PNG" alt="overslept logo">
     </center>
     </div>
     <hr>
