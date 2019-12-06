@@ -3,14 +3,14 @@
 <head>
 	<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>Overslept Again</title>
-		<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
-		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
-    	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
-    	<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     	<script src="homepage.js"></script>
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    	<title>Overslept Again</title>
     <!-- Bootstrap -->
     	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     	<link href="homepage.css" rel="stylesheet">
@@ -19,9 +19,9 @@
 
 		<div id="mySidebar" class="sidebar">
   			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  			<a href="#">Home</a>
-  			<a href="#">Art</a>
-  			<a href="#">Apparel</a>
+  			<a href="homepage.html">Home</a>
+  			<a href="art.html">Art</a>
+  			<a href="oversleptapparel.html">Apparel</a>
 		</div>
 
 		<div id="main">
@@ -30,37 +30,69 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-12">
 				<div class="logo">
-					<h1 style="font-size:100px; margin-right:30px"> Overslept Again </h1>
+					<h1 style="font-size:100px;"> Overslept Again </h1>
 			 	</div>
 		 	</div>
 		</div>
 	</div>
 	<div class="banner"> 
-  			<img class="banner-image" src="Banner.jpg"></div>
+  			<img class="banner-image" src="Banner.jpg" alt="This is the banner of the webpage, it features original art by Jillian Hathaway, featuring a collage of different pictures to create a mountain scene."></div>
 	<br>
 	<br>
 	<br>
 	<br>
 	<br>
 	<br>
-		 <p class="p"> Jillian Hathaway is an artist, creator, and visionary living in the ocean state, Rhode Island. Her art reflects the innerworks of her mind: wild, free, and inspired. Check out her stuff on this website, showcasing her artistic work and available designs. </p>
+		<center>
+			<p class="p"> Oops! She overslept again... <br> Jillian Hathaway is an artist, creator, and visionary living in the ocean state, Rhode Island. <br> Her art reflects the innerworks of her mind: wild, free, and inspired. Check out her stuff on this website, showcasing her artistic work and available designs. </p> </center>	 
 	<br>
 	<br>
 	<br>
-		<img src="ProfilePic.png" width=100px height=100px alt="This is a picture of the artist that is featured on the website. Her name is Jillian Hathaway. She has blonde hair and blue eyes and is smiling">
+	<center>
+		<img class="profilepic" src="ProfilePic.png" width=200px height=200px alt="This is a picture of the artist that is featured on the website. Her name is Jillian Hathaway. She has blonde hair and blue eyes and is smiling">
+	</center>
 	<br>
 	<br>
 	<br>
-		 <a href="https://www.instagram.com/jillhathaway/" target="_blank" class="fa fa-instagram"></a>
+	<center>
+		<a href="https://www.instagram.com/jillhathaway/" target="_blank" class="fa fa-instagram" alt="This is a link to the artist's Instagram page, if clicked on it will bring the visitor to a new window."></a>
+	</center>
 
+	<footer>
+        <center>
+        	<h4><a href="oversleptapparel.html">Shop</a></h4>
+        	<h4><button class="open-button" onclick="openForm()">Contact</button></h4>
+	<div class="form-popup" id="myForm">
+  		<form action="MAILTO:christinakasper@my.uri.edu"
+   			class="form-container"
+   			method="POST"
+   			enctype="text/plain"
+   			name="EmailForm">
+    		<label for="name"><b>Name</b></label>
+    		<input type="text" placeholder="Your Name" name="name" required>
 
+    		<label for="email"><b>Email</b></label>
+    		<input type="email" placeholder="Your Email" name="email" required>
 
+    		<label for="text"><b>Message</b></label>
+    		<input type="text" rows="8" cols="28">
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <!--<script src="jquery.min.js"></script>-->
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!--<script src="bootstrap/js/bootstrap.min.js"></script>-->
+    		<input class="send" id="btn send" type="submit" value="Send">
+
+    		<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  		</form>
+	</div>
+    <br>
+    <hr>
+        <center>
+        	<img src="oversleptagain.PNG" alt="overslept logo">
+    	</center>
+    <hr>
+   
+    	<center><h6> © 2019. Overslept Again</h6></center>
+
+	</footer>
  </body>
 </html>
