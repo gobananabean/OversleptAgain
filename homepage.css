@@ -134,6 +134,7 @@ a{
   bottom: 23px;
   right: 28px;
   width: 280px;
+  font-family:Titania;
 }
 
 /* The popup form - hidden by default */
@@ -200,4 +201,8 @@ a{
 /* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
+}
+
+#legal {
+  font-family:Titania;
 }
