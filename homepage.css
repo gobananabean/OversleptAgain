@@ -75,7 +75,7 @@
 }
 
 .fa {
-  padding: 20px;
+  
   font-size: 30px;
   width: 30px;
   text-align: center;
@@ -142,8 +142,9 @@ a{
   display: none;
   position:relative;
   bottom: 0;
-  right: 15px;
+  
   z-index: 9;
+  border:none;
 }
 
 /* Add styles to the form container */
@@ -205,4 +206,8 @@ a{
 
 #legal {
   font-family:Titania;
+}
+
+.footerimg {
+  width:60%;
 }
