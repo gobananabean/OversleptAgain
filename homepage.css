@@ -69,9 +69,17 @@
   margin-bottom:30px;
 }
 
+.logo a:hover {
+  opacity: 0.90;
+  color:grey;
+}
+
 .p {
   color:white;
-  font-size:15px;
+  font-size:18px;
+  font-family:Titania;
+  margin-left:200px;
+  margin-right:200px;
 }
 
 .fa {
