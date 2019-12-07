@@ -27,7 +27,7 @@ body{
     src: local('Titania-Shadow'), url('Titania-Shadow.ttf') format('truetype');
 }
 
-
+/*This is the first hero picture*/
 .hero{
   width: 100vw;
   height: 100vh;
@@ -62,17 +62,24 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+/*This is the logo*/
 .logo {
-    font-family:Titania Shadow;
-    text-align: center;
-    color:white;
-    margin-bottom: 5%;
+  font-family:Titania Shadow;
+  text-align:center;
+  color:white;
+  margin-bottom:30px;
 }
+
+/* When hovering over the logo, make it do this */
+.logo a:hover {
+  opacity: 0.90;
+  color:grey;
+}
+/*open button font*/
 .openbtn{
     font-family: Titania;
 }
-
+/*side bar font*/
 .sidebar{
     font-family: Titania;
 }
@@ -88,7 +95,7 @@ footer{
 }
 
 
-
+/*linein footer*/
 hr{
     border-style: none;
     border-top-style:solid;
@@ -96,12 +103,13 @@ hr{
     border-width: 5px;
     width: 50%;
 }
-
+/*Links in footer*/
 a{
     color: white;
     text-decoration: none;
     font-size: 100%;
 }
+/*fonts in footer*/
 h1{
     font-family: Titania Shadow;
     font-size:130px;
@@ -151,7 +159,7 @@ span{
     display: none;
     position:relative;
     bottom: 0;
-    right: 15px;
+    
     z-index: 9;
   }
   
@@ -215,7 +223,7 @@ span{
   #legal {
     font-family:Titania;
   }
-
+/*size of footer image*/
   .footerimg{
       width: 60%
   }
