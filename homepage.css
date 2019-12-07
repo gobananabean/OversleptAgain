@@ -46,6 +46,8 @@
   border: none;
   font-family:Titania;
 }
+
+/* When hovering over the button in the sidebar, make the background color change */
 .openbtn:hover {
   background-color: #444;
 }
@@ -62,6 +64,7 @@
   .sidebar a {font-size: 18px;}
 }
 
+/* Styling for the logo at the top, Overslept Again */
 .logo {
   font-family:Titania Shadow;
   text-align:center;
@@ -69,11 +72,13 @@
   margin-bottom:30px;
 }
 
+/* When hovering over the logo, make it do this */
 .logo a:hover {
   opacity: 0.90;
   color:grey;
 }
 
+/* Styling for the paragraph text */
 .p {
   color:white;
   font-size:18px;
@@ -82,8 +87,8 @@
   margin-right:200px;
 }
 
+/* Styling for links */
 .fa {
-  
   font-size: 30px;
   width: 30px;
   text-align: center;
@@ -91,15 +96,18 @@
   border-radius: 50%;
 }
 
+/* When you hover over the link, make the opactiy change */
 .fa:hover {
     opacity:99;
 }
 
+/* Styling for the link to the Instagram */
 .fa-instagram {
   color: white;
   display:block;
 }
 
+/* Changes to the image banner at the top, underneath the page title */
 .banner {
       width:100%;
       display:block;
@@ -111,12 +119,14 @@
     height: 400px;
 }
 
+/* Styling changes to the footer */
 footer{
     padding: 50px 0 20px 0;
     background-color: black;
     color:white;
 }
 
+/* Styling changes to the horizontal rule */
 hr{
     border-style: none;
     border-top-style:solid;
@@ -125,6 +135,7 @@ hr{
     width: 50%;
 }
 
+/* Styling changes to link */
 a{
     color: white;
     text-decoration: none;
@@ -178,6 +189,7 @@ a{
   outline: none;
 }
 
+/* Styling for the send button */
 .send {
   background-color: #4CAF50;
   color: white;
@@ -212,10 +224,12 @@ a{
   opacity: 1;
 }
 
+/* Styling for the footer (2019 Overslept Again) */
 #legal {
   font-family:Titania;
 }
 
+ /* Resize the footer image */ 
 .footerimg {
   width:60%;
 }
