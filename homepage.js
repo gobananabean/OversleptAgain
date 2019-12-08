@@ -17,3 +17,8 @@ function openForm() {
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
+
+//function that lets you know there is no way to actually pay
+function confirmCart(){
+    var confirmation = alert("Just proof of concept site, no actually payment possible.");
+}
