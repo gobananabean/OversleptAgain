@@ -1,3 +1,26 @@
+@font-face {
+    font-family: 'Titania';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Titania-Regular'), url('Titania-Regular.woff') format('woff');
+    src: local('Titania-Regular'), url('Titania-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Titania Outline';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Titania-Outline'), url('Titania-Outline.woff') format('woff');
+    src: local('Titania-Outline'), url('Titania-Outline.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Titania Shadow';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Titania-Shadow'), url('Titania-Shadow.woff') format('woff');
+    src: local('Titania-Shadow'), url('Titania-Shadow.ttf') format('truetype');
+}
+
 .sidebar {
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-    <title>Overslept Again Art Page</title>
+    <title>Overslept Again Art</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
       <link href="homepage.css" rel="stylesheet">
 </head>
@@ -10,17 +10,17 @@
 
     <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">Home</a>
-        <a href="#">Art</a>
-        <a href="#">Apparel</a>
-    </div>
+        <a href="index.html">Home</a>
+        <a href="art.html">Art</a>
+        <a href="oversleptapparel.html">Apparel</a>
+  </div>
 
     <div id="main">
         <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
     </div>
 
     <div class="logo">
-          <h1 style="font-size:100px;"> Overslept Again </h1>
+          <a href="index.html" style="font-size:100px;"> Overslept Again </a>
         </div>
 
     <div class="container">
@@ -31,8 +31,8 @@
         <div class="col-md-4">
 
           <div class="thumbnail">
-            <a href="flamingjunesubway.jpg" target="_blank">
-              <img src="flamingjunesubway.jpg" alt="Flaming June" style="width:100%">
+            <a href="images/flamingjunesubway.jpg" target="_blank">
+              <img src="images/flamingjunesubway.jpg" alt="Flaming June" style="width:100%">
             </a>
               <div class="caption text-center">
                 <a href="#">
@@ -48,8 +48,8 @@
           </div>
 
           <div class="thumbnail">
-            <a href="BIRD STICKER.png" target="_blank">
-              <img src="BIRD STICKER.png" alt="Bird" style="width:100%">
+            <a href="images/BIRD STICKER.png" target="_blank">
+              <img src="images/BIRD STICKER.png" alt="Bird" style="width:100%">
             </a>
               <div class="caption text-center">
                 <a href="#">
@@ -65,8 +65,8 @@
           </div>
 
           <div class="thumbnail">
-            <a href="Banner.jpg" target="_blank">
-              <img src="Banner.jpg" alt="Banner" style="width:100%">
+            <a href="images/Banner.jpg" target="_blank">
+              <img src="images/Banner.jpg" alt="Banner" style="width:100%">
             </a>
               <div class="caption text-center">
                 <a href="#">
@@ -85,8 +85,8 @@
         <div class="col-md-4">
 
           <div class="thumbnail">
-            <a href="flowerd1.jpg" target="_blank">
-              <img src="flowerd1.jpg" alt="Flower" style="width:100%">
+            <a href="images/flowerd1.jpg" target="_blank">
+              <img src="images/flowerd1.jpg" alt="Flower" style="width:100%">
             </a>
               <div class="caption text-center">
                 <a href="#">
@@ -102,8 +102,8 @@
           </div>
 
           <div class="thumbnail">
-            <a href="ALI STICKER.png" target="_blank">
-              <img src="ALI STICKER.png" alt="Ali" style="width:100%">
+            <a href="images/ALI STICKER.png" target="_blank">
+              <img src="images/ALI STICKER.png" alt="Ali" style="width:100%">
             </a>
               <div class="caption text-center">
                 <a href="#">
@@ -119,8 +119,8 @@
           </div>
 
           <div class="thumbnail">
-            <a href="ishopthereforeiamali.jpg" target="_blank">
-              <img src="ishopthereforeiamali.jpg" alt="Shopping" style="width:100%">
+            <a href="images/ishopthereforeiamali.jpg" target="_blank">
+              <img src="images/ishopthereforeiamali.jpg" alt="Shopping" style="width:100%">
             </a>
               <div class="caption text-center">
                 <a href="#">
@@ -141,8 +141,8 @@
         <div class="col-md-4">
 
           <div class="thumbnail">
-            <a href="OA STICKER.png" target="_blank">
-              <img src="OA STICKER.png" alt="Sticker" style="width:100%">
+            <a href="images/OA STICKER.png" target="_blank">
+              <img src="images/OA STICKER.png" alt="Sticker" style="width:100%">
             </a>
               <div class="caption text-center">
                 <a href="#">
@@ -158,8 +158,8 @@
           </div>
 
           <div class="thumbnail">
-            <a href="BUMPER STICKER.png" target="_blank">
-              <img src="BUMPER STICKER.png" alt="Bumper Sticker" style="width:100%">
+            <a href="images/BUMPER STICKER.png" target="_blank">
+              <img src="images/BUMPER STICKER.png" alt="Bumper Sticker" style="width:100%">
             </a>
               <div class="caption text-center">
                 <a href="#">
@@ -175,8 +175,8 @@
           </div>
 
           <div class="thumbnail">
-            <a href="owlshit.jpg" target="_blank">
-              <img src="owlshit.jpg" alt="Owl" style="width:100%">
+            <a href="images/owlshit.jpg" target="_blank">
+              <img src="images/owlshit.jpg" alt="Owl" style="width:100%">
             </a>
               <div class="caption text-center">
                 <a href="#">
@@ -194,6 +194,47 @@
         </div>
       </div>
     </div>
+
+    <!-- Footer beings here -->
+  <footer>
+        <center>
+
+<!-- Contact form beings here -->
+          <h4><button class="open-button" onclick="openForm()">Contact</button></h4>
+  <div class="form-popup" id="myForm">
+      <form action="MAILTO:christinakasper@my.uri.edu"
+        class="form-container"
+        method="POST"
+        enctype="text/plain"
+        name="EmailForm">
+        <label for="name"><b>Name</b></label>
+        <input type="text" placeholder="Your Name" name="name" required>
+
+        <label for="email"><b>Email</b></label>
+        <input type="email" placeholder="Your Email" name="email" required>
+
+        <label for="text"><b>Message</b></label>
+        <input type="text" placeholder="Your Message">
+
+        <input class="send" id="btn send" type="submit" value="Send">
+
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </center> 
+<!-- Contact form ends here -->
+      </form>
+  </div>
+    <br>
+    <hr>
+        <center>
+<!-- Footer image -->
+          <img class="footerimg" src="images/oversleptAgain.png" alt="overslept logo">
+      </center>
+    <br>
+    <hr>
+      <center>
+        <div id="legal"> <h6> © 2019. Overslept Again</h6></div></center>
+  </footer>
+<!-- Footer ends here, end of page-->
         
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="homepage.js"></script>
