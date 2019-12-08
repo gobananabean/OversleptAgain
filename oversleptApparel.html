@@ -1,235 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- little icons -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="homepage.css">
-<link rel="stylesheet" href="apparel.css">
-<script src="homepage.js"></script>
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    	<script src="homepage.js"></script>
+    	<title>Overslept Again</title>
+    <!-- Bootstrap -->
+    	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    	<link href="homepage.css" rel="stylesheet">
 </head>
+	<body style="background-color: black;">
 
+		<div id="mySidebar" class="sidebar">
+  			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  			<a href="homepage.html">Home</a>
+  			<a href="art.html">Art</a>
+  			<a href="oversleptapparel.html">Apparel</a>
+		</div>
 
-<body>
-<!-- navigation bar-->
-<div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html">Home</a>
-        <a href="art.html">Art</a>
-        <a href="oversleptapparel.html">Apparel</a>
-  </div>
+		<div id="main">
+  			<button class="openbtn" onclick="openNav()">&#9776; Menu</button>
+		</div>
 
-  <div id="main">
-        <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
-  </div>
-
-<div class="container">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="logo">
-					<a href="index.html" style="font-size:100px;"> Overslept Again </a>
+					<h1 style="font-size:100px;"> Overslept Again </h1>
 			 	</div>
 		 	</div>
 		</div>
-    </div>
-<!--end of navigation bar-->
-<!--First Hero Picture-->
-<section class="hero">
-    <div class="hero-inner">
-        <h1 style="font-size:80px">Apparel</h1>
-    </div>
-</section> 
-<!-- This is the beginning of the apparel pictures on the page!-->
-<div class="container">
-    <br>
-        <div class="row">
-          <div class="col-md-4">
-  
-            <div class="thumbnail">
-              <a href="OA8.jpg" target="_blank">
-                <img src="OA8.jpg" alt="Overslept Tee" style="width:100%">
-              </a>
-                <div class="caption text-center">
-                  <a href="#">
-                    <p>Overslept in White</p>
-                    <p>$5.00</p>
-                    <div class="btn" style="margin:10px">
-                      <span >
-                        Add to Cart
-                      </span>
-                    </div>
-                  </a>
-                </div>
-            </div>
-  
-            <div class="thumbnail">
-              <a href="OA9.jpg" target="_blank">
-                <img src="OA9.jpg" alt="Overslept Tee" style="width:100%">
-              </a>
-                <div class="caption text-center">
-                  <a href="#">
-                    <p>OverSlept in Long Sleeves</p>
-                    <p>$7.00</p>
-                    <div class="btn" style="margin:10px">
-                      <span>
-                        Add to Cart
-                      </span>
-                    </div>
-                  </a>
-                </div>
-            </div>
-  
-            <div class="thumbnail">
-              <a href="OA3.jpg" target="_blank">
-                <img src="OA3.jpg" alt="Overlept merch" style="width:100%">
-              </a>
-                <div class="caption text-center">
-                  <a href="#">
-                    <p>Overslept in Black</p>
-                    <p>$6.00</p>
-                    <div class="btn" style="margin:10px">
-                      <span>
-                        Add to Cart
-                      </span>
-                    </div>
-                  </a>
-                </div>
-            </div>
-          </div>
-  
-          <div class="col-md-4">
-  
-            <div class="thumbnail">
-              <a href="OA 5.jpg" target="_blank">
-                <img src="OA 5.jpg" alt="Hat" style="width:100%">
-              </a>
-                <div class="caption text-center">
-                  <a href="#">
-                    <p>Overslept in a Bucket Hat</p>
-                    <p>$10.00</p>
-                    <div class="btn" style="margin:10px">
-                      <span >
-                        Add to Cart
-                      </span>
-                    </div>
-                  </a>
-                </div>
-            </div>
-  
-            <div class="thumbnail">
-              <a href="OA 6.png" target="_blank">
-                <img src="OA 6.png" alt="Tee" style="width:100%">
-              </a>
-                <div class="caption text-center">
-                  <a href="#">
-                    <p>Overslept Again with Art</p>
-                    <p>$9.00</p>
-                    <div class="btn" style="margin:10px">
-                      <span>
-                        Add to Cart
-                      </span>
-                    </div>
-                  </a>
-                </div>
-            </div>
-  
-            <div class="thumbnail">
-              <a href="OA 7.jpg" target="_blank">
-                <img src="OA 7.jpg" alt="Tee" style="width:100%">
-              </a>
-                <div class="caption text-center">
-                  <a href="#">
-                    <p>Overslept with a Chest Logo</p>
-                    <p>$8.00</p>
-                    <div class="btn" style="margin:10px">
-                      <span>
-                        Add to Cart
-                      </span>
-                    </div>
-                  </a>
-                </div>
-            </div>
-  
-          </div>
-  
-  
-          <div class="col-md-4">
-  
-            <div class="thumbnail">
-              <a href="OA1.jpg" target="_blank">
-                <img src="OA1.jpg" alt="Tee" style="width:100%">
-              </a>
-                <div class="caption text-center">
-                  <a href="#">
-                    <p>Overslept Again in Idleness</p>
-                    <p>$12.00</p>
-                    <div class="btn" style="margin:10px">
-                      <span>
-                        Add to Cart
-                      </span>
-                    </div>
-                  </a>
-                </div>
-            </div>
-  
-            <div class="thumbnail">
-              <a href="OA2.jpg" target="_blank">
-                <img src="OA2.jpg" alt="Tee" style="width:100%">
-              </a>
-                <div class="caption text-center">
-                  <a href="#">
-                    <p>Overslept in a Crop</p>
-                    <p>$9.00</p>
-                    <div class="btn" style="margin:10px">
-                      <span>
-                        Add to Cart
-                      </span>
-                    </div>
-                  </a>
-                </div>
-            </div>
-  
-            <div class="thumbnail">
-              <a href="OA4.jpg" target="_blank">
-                <img src="OA4.jpg" alt="Tee" style="width:100%">
-              </a>
-                <div class="caption text-center">
-                  <a href="#">
-                    <p>Overslept in Idle</p>
-                    <p>$5.00</p>
-                    <div class="btn" style="margin:10px">
-                      <span>
-                        Add to Cart
-                      </span>
-                    </div>
-                  </a>
-                </div>
-            </div>
-  
-          </div>
-        </div>
-      </div>
-<!--This is the end of the apparel on the page!-->
-<!--Second hero picture-->
-<section class="hero2">
-    <div class="hero-inner">
-    </div>
-</section> 
+	</div>
+	<div class="banner"> 
+  			<img class="banner-image" src="Banner.jpg" alt="This is the banner of the webpage, it features original art by Jillian Hathaway, featuring a collage of different pictures to create a mountain scene."></div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+		<center>
+			<p class="p"> Oops! She overslept again... <br> Jillian Hathaway is an artist, creator, and visionary living in the ocean state, Rhode Island. <br> Her art reflects the innerworks of her mind: wild, free, and inspired. Check out her stuff on this website, showcasing her artistic work and available designs. </p> </center>	 
+	<br>
+	<br>
+	<br>
+	<center>
+		<img class="profilepic" src="ProfilePic.png" width=200px height=200px alt="This is a picture of the artist that is featured on the website. Her name is Jillian Hathaway. She has blonde hair and blue eyes and is smiling">
+	</center>
+	<br>
+	<br>
+	<br>
+	<center>
+		<a href="https://www.instagram.com/jillhathaway/" target="_blank" class="fa fa-instagram" alt="This is a link to the artist's Instagram page, if clicked on it will bring the visitor to a new window."></a>
+	</center>
 
-<!--This is the footer image-->
-<footer>
-  <center>
-    <!--This is the contact form-->
-  <h4><button class="open-button" onclick="openForm()">Contact</button></h4>
+	<footer>
+        <center>
+        	<h4><button class="open-button" onclick="openForm()">Contact</button></h4>
 	<div class="form-popup" id="myForm">
   		<form action="MAILTO:christinakasper@my.uri.edu"
    			class="form-container"
@@ -248,21 +81,18 @@
     		<input class="send" id="btn send" type="submit" value="Send">
 
     		<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    	</center>
   		</form>
-  </div>
-  <!--End of contact form-->
-</center>
-  <br>
+	</div>
+    <br>
     <hr>
-    <div>
-      <!--Image in footer-->
-    <center>
-        <img class="footerimg" src="oversleptagain.PNG" alt="overslept logo">
-    </center>
-    </div>
+        <center>
+        	<img class="footerimg" src="oversleptagain.PNG" alt="overslept logo">
+    	</center>
+    <br>
     <hr>
-    <div class="row text-center"><h6> © 2019. Overslept Again</h6></div>
-</footer>
-<!--End of footer-->
-</body>
-</html> 
+    	<center>
+    		<div id="legal"> <h6> © 2019. Overslept Again</h6></div></center>
+	</footer>
+ </body>
+</html>
